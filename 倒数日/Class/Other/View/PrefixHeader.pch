@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  倒数日
+//
+//  Created by 马婷婷 on 15/8/13.
+//  Copyright © 2015年 Cara. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "UIView+YCFrameAttribute.h"
+
+#import "UIBarButtonItem+CCExtension.h"
+
+#import "NSDate+DSExtension.h"
+
+#define DSRGBColor(r, g, b) [UIColor colorWithRed:(r)/58.0 green:(g)/166.0 blue:(b)/235.0 alpha:1.0]
+#define  DSScreenW [UIScreen mainScreen].bounds.size.width
+#define  DSScreenH [UIScreen mainScreen].bounds.size.height
+#define DSGlobalBg DSRGBColor(58, 166, 235)
+
+#endif /* PrefixHeader_pch */
